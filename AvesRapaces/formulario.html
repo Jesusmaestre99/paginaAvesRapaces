@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es">
+
+<head>
+    <title>Formulario</title>
+    <meta charset="utf-8" http-equiv="Content-Type" content="text/html"/>
+    <link href="index.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+
+<body id="bodyEstandar">
+  <div class="divContenedor">
+    <div class="divMarco divTitulo">FORMULARIO</div>
+ 
+    <form>
+
+    <table class="tablaFormulario">
+      <tr>
+        <td><label for="nombre">Nombre: </label></td>
+        <td><input type="text" name="nombre" id="nombre"></td>
+      </tr>
+      <tr>
+        <td><label for="apellido">Apellido:  </label></td>
+        <td><input type="text" name="apellido" id="apellido"></td>
+      </tr>
+      <tr>
+        <td><label for="usuario">Usuario: </label></td>
+        <td><input type="text" name="usuario" id="usuario"></td>
+      </tr>
+      <tr>
+        <td><label for="contra">Contraseña: </label></td>
+        <td><input type="text" name="contra" id="contra"></td>
+      </tr>
+      <tr>
+        <td> <label for="pais">País:</label></td>
+        <td><select name="pais" id="pais">
+          <option>España</option>
+          <option>Colombia</option>
+          <option>Chile</option>
+          <option>Perú</option>
+          <option>Argentina</option>
+          <option>México</option>
+        </select></td>
+        </tr>
+        <tr>
+          <td>Especie Favorita: </td>
+          <td><label>
+            <input type="radio" name="tecnologias" value="Java" id="tecnologias_0">
+            Falconiformes</label>
+            <br>
+            <label>
+              <input type="radio" name="tecnologias" value="PHP" id="tecnologias_1">
+            Estrigiformes</label>
+            <br>
+          </tr>
+          <tr>
+            <td>Fecha de nacimiento: </td>
+            <td><input type="date"></td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center"><input type="submit" name="button" id="button" value="Enviar"></td>
+          </tr>
+        </table>
+        <p><br>
+        </p>
+      </form>
+    </div>  
+  </body>
+</html>    

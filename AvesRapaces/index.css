@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Monserrat';
+}
+
+a {
+  color: white;
+}
+
+h4 {
+  text-align: center;
+  width: fit-content;
+  color: white;
+  font-size: x-large;
+  margin-bottom: 10px;
+}
+
+#bodyEstandar {
+  background-image: url(res/fondo.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+ul#menu {
+  background-color: black;
+  height: 35px;
+}
+
+ul#menu li {
+  height: 35px;
+  background: black;
+  transition: 0.25s;
+  padding-left: 15px;
+  padding-right: 15px;
+  vertical-align: middle;
+  display: table-cell;
+  color: #fff;
+  list-style: none;
+  cursor: pointer;
+}
+
+ul#menu ul {
+  display: none;
+  position: absolute;
+  top: 35px;
+  background: white;
+  color: #fff;
+  margin: 0;
+  box-shadow: 1px 1px 1px black;
+}
+
+ul#menu ul li {
+  display: table-cell;
+  vertical-align: middle;
+  color: #fff;
+  padding: 5px 10px 5px 10px;
+}
+
+ul#menu li:hover ul ul,
+ul#menu li:hover ul ul ul {
+  display: none;
+}
+
+ul#menu li:hover ul,
+ul#menu ul li:hover ul,
+ul#menu ul ul li:hover ul {
+  display: table-cell;
+  margin-left: -10px;
+}
+
+#bodyInicio {
+  background-color: black;
+}
+
+.title {
+	font-family: "Montserrat";
+	text-align: center;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	letter-spacing: 1px;
+}
+
+h1 {
+	background-image: url(res/inicio.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 130px;
+	line-height: .75;
+	margin: 10px 0;
+}
+
+.white-mode {
+	text-decoration: none;
+	padding: 7px 10px;
+	background-color: orange;
+	border-radius: 3px;
+	color: #FFF;
+	transition: .35s ease-in-out;
+	position: absolute;
+	left: 15px;
+	bottom: 15px;
+	font-family: "Montserrat";
+}
+
+.white-mode:hover {
+	background-color: #FFF;
+	color: black;
+}
+
+.divContenedor {
+  margin: 50px;
+  margin-top: 100px;
+  border: 10px solid #000000;
+  padding: 1%;
+}
+
+.divMarco {
+  text-align: justify;
+  padding: 10px;
+  color: white;
+  border-radius: 5%;
+  width: fit-content;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.divTitulo {
+  font-size: 20px;
+  background: rgb(0, 0, 0);
+  width: auto;
+  border-radius: 0%;
+  margin-top: 50px;
+  text-align: center;
+  border: solid;
+  border-radius: 10%;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.divDescripcion {
+  margin-top: 30px;
+  text-align: justify;
+}
+
+.divEnlace {
+  margin-top: 20px;
+  color: white;
+}
+
+.divEnlace:hover{
+  background-color: black;
+  opacity: 100%;
+	border-radius: 3px;
+	color: white;
+	transition: .35s ease-in-out;
+	font-family: "Montserrat";
+}
+
+.divTituloEspecie {
+  margin-top: 30px;
+  font-size: 17px;
+  width: fit-content;
+  background-color: white;
+  color: black;
+  border: solid;
+  border-radius: 10%;
+}
+
+.nombreEspecie {
+  margin: 15px;
+  font-size: 20pt;	
+  background: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  color: white;
+  border-radius: 5%;
+}
+
+.imagenTabla {
+  width: 256px;
+  height: 192px;
+}
+
+.descripcionEspecie {
+  margin: 15px;
+  font-size: 14pt;
+  text-align: justify;
+  border-radius: 5%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 5px;
+}
+
+.tablaFormulario {
+  margin-top: 50px;
+  margin-left: 30%;
+  width: 40%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+.tablaGaleria {
+  margin-left: 30%;
+  width: 40%;
+}
